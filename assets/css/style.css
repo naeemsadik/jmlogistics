@@ -127,8 +127,12 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+#header .logo a span{
+  color: #f99c0f;
+}
+
 #header .logo a {
-  color: #413e66;
+  color: #000;
 }
 
 #header .logo img {
@@ -417,14 +421,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #home .intro-info h2 {
-  color: #413e66;
+  color: #000;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #home .intro-info h2 span {
-  color: #1bb1dc;
+  color: #f99c0f;
 }
 
 @media (max-width: 991px) {
@@ -445,12 +449,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
-  color: #fff;
+  background: #f99c0f;
 }
 
 #home .intro-info .btn-get-started:hover, #home .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #ea930e;
 }
 
 /*--------------------------------------------------------------
