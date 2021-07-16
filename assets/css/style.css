@@ -1357,6 +1357,10 @@ section {
   text-transform: uppercase;
 }
 
+#footer .footer-top .footer-info h3 span {
+  color: #f99c0f;
+}
+
 #footer .footer-top .footer-info p {
   font-size: 13px;
   line-height: 24px;
