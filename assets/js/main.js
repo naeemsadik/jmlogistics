@@ -273,3 +273,18 @@
   });
 
 })()
+
+
+
+
+
+//Toggle agent button
+
+function agentbtn() {
+  var x = document.getElementById("ria_MT");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
